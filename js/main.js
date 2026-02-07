@@ -8,10 +8,10 @@ no.style.top=Math.random()*400+"px";
 }
 }
 
-function next(){
 let music=document.getElementById("music");
-if(music){music.play();}
-location="rose.html";
+
+if(localStorage.getItem("play")=="yes" && music){
+music.play();
 }
 
 function letters(){
