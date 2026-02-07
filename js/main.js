@@ -9,6 +9,8 @@ no.style.top=Math.random()*400+"px";
 }
 
 function next(){
+let music=document.getElementById("music");
+if(music){music.play();}
 location="rose.html";
 }
 
@@ -22,4 +24,3 @@ document.getElementById(id).style.display="none";
 });
 document.getElementById("l"+n).style.display="block";
 }
-
