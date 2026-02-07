@@ -22,3 +22,4 @@ document.getElementById(id).style.display="none";
 });
 document.getElementById("l"+n).style.display="block";
 }
+
