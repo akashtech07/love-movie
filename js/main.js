@@ -8,12 +8,6 @@ no.style.top=Math.random()*400+"px";
 }
 }
 
-let music=document.getElementById("music");
-
-if(localStorage.getItem("play")=="yes" && music){
-music.play();
-}
-
 function letters(){
 location="letters.html";
 }
