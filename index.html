@@ -19,15 +19,23 @@
 <img src="assets/photo.jpg" class="hero">
 
 <div>
-<button onclick="next()">YES</button>
+<button onclick="start()">YES</button>
 <button id="no">NO</button>
 </div>
 
 </div>
 
+<script>
+let music=document.getElementById("music");
+
+function start(){
+music.play();
+localStorage.setItem("play","yes");
+location="rose.html";
+}
+</script>
+
 <script src="js/main.js"></script>
 
 </body>
 </html>
-
-
